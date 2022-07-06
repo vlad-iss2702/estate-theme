@@ -1,0 +1,125 @@
+.site-branding .site-title a {
+    color: #1a1a1a;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.5s;
+}
+.site-header {
+    padding: 0;
+}
+.site-branding img {
+    height: 100px;
+    width: 100px;
+    margin-right: 25px;
+}
+.site-branding, .site-header-menu, .header-image {
+    margin: 0 !important;
+    width: 100%;
+    display: flex;
+}
+.site-header {
+    padding: 0;
+    border-bottom: 1px solid #dfdfdf;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+.site-description {
+    display: block;
+    width: 60%;
+}
+.site-branding, .site-header-menu, .header-image {
+    justify-content: space-between;
+}
+.number {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+.number p{
+    margin-bottom: 0;
+}
+.number p a {
+    font-size: 23px;
+    color: #2c2b2b;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.5s;
+}
+.number p a:hover {
+    color: #0d6efd;
+}
+.content-area {
+    width: 100%;
+}
+.estate_title {
+    color: #252525;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0 0;
+}
+.estate_item__img {
+    height: 222px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.estate_item {
+    border: 1px solid #9494943d;
+    cursor: pointer;
+    background: #fff;
+    margin: 0 0px 25px 0;
+    box-shadow: 0 4px 40px rgb(230 230 230);
+    transition: transform 0.1s linear;
+    border-radius: 8px;   
+}
+.estate_item h4 {
+    font-size: 20px;
+    padding: 0 20px;
+}
+.estate_item__block {
+    display: flex;
+    padding: 0 20px;
+}
+.estate_item__ploshad {
+    margin-right: 20px;
+    margin-bottom: 10px;
+}
+.estate_item__price {
+    padding: 0 20px;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.estate_item__price span {
+    font-weight: 600;
+    font-style: italic;
+    color: #cf733ee3;
+}
+.estate_item__link {
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+.estate_item__link a {
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid #0d6efd;
+    border-radius: 8px;
+    color: #0d6efd;
+    transition: 0.5s;
+}
+.estate_item__link a:hover {
+    border: 1px solid #0e5bcdcc;
+    color: #fff;
+    background: #0e5bcdcc;
+}
+
+
+
+
+
+
+
+
